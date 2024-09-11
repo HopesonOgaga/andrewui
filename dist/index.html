@@ -4,11 +4,316 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="./flowbite.js" defer></script>
     <link rel="stylesheet" href="output.css" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js" defer></script>
   </head>
-  <body class="flex justify-center w-full h-screen items-center flex-col">
-    <main class="h-32 bg-red-400 w-32 rounded-full shadow-md flex justify-center items-center flex-col">
-        <div class="h-16 w-16 rounded-full shadow-sm border-2 bg-red-300 "></div>
-    </main>
+  <body class="bg-gray-900 pl-4 pr-4">
+    <section>
+      <div>
+        <!-- burger -->
+         
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">hopesontho</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-400 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-gray-400 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      </div>
+      <div class="mt-6">
+        <p class="text-white text-center font-medium capitalize text-2xl">
+          dashboard
+        </p>
+        <!-- slider -->
+         
+
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
+  <!-- Carousel wrapper -->
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+       <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 4 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 5 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+  </div>
+  <!-- Slider indicators -->
+  <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+  </div>
+  <!-- Slider controls -->
+  <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>
+
+      </div>
+      <div>
+        <!-- search -->
+
+        <form class="max-w-md mx-auto">
+          <label
+            for="default-search"
+            class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+            >Search</label
+          >
+          <div class="relative">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+            </div>
+            <input
+              type="search"
+              id="default-search"
+              class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Search Mockups, Logos..."
+              required
+            />
+            <button
+              type="submit"
+              class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              copy
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="flex flex-col gap-14 w-full h-full mt-14 mb-12">
+        <div class="flex justify-evenly">
+          <div
+            class="w-36 h-14 flex justify-center flex-col items-center gap-2"
+          >
+            <button class="bg-gray-500 rounded-md shadow-sm">
+              <img
+                class="w-10 h-10"
+                src="/images/icons/save-money.png"
+                alt=""
+              />
+            </button>
+            <p
+              class="text-white font-medium text-lg capitalize text-center w-full"
+            >
+              deposit
+            </p>
+          </div>
+          <div
+            class="w-36 h-14 flex justify-center flex-col items-center gap-2"
+          >
+            <button class="bg-gray-500 rounded-md shadow-sm">
+              <img
+                class="w-10 h-10"
+                src="/images/icons/cash-withdrawal.png"
+                alt=""
+              />
+            </button>
+            <p
+              class="text-white font-medium text-lg capitalize w-full text-center"
+            >
+              withdrawl
+            </p>
+          </div>
+          <div
+            class="w-36 h-14 flex justify-center flex-col items-center gap-2"
+          >
+            <button class="bg-gray-500 rounded-md shadow-sm">
+              <img class="w-10 h-10" src="/images/icons/trade.png" alt="" />
+            </button>
+            <p
+              class="text-white font-medium text-lg capitalize text-center w-full"
+            >
+              trade now
+            </p>
+          </div>
+          <div
+            class="w-36 h-14 flex justify-center flex-col items-center gap-2"
+          >
+            <button class="bg-gray-500 rounded-md shadow-sm">
+              <img class="w-10 h-10" src="/images/icons/user.png" alt="" />
+            </button>
+            <p
+              class="text-white font-medium text-lg capitalize text-center w-full"
+            >
+              profile
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-evenly">
+          <div
+            class="w-36 h-14 flex justify-center flex-col items-center gap-2"
+          >
+            <button class="bg-gray-500 rounded-md shadow-sm">
+              <img class="w-10 h-10" src="/images/icons/trade.png" alt="" />
+            </button>
+            <p
+              class="text-white font-medium text-lg capitalize w-full text-center"
+            >
+              trade history
+            </p>
+          </div>
+          <div
+            class="w-36 h-14 flex justify-center flex-col items-center gap-2"
+          >
+            <button class="bg-gray-500 rounded-md shadow-sm">
+              <img class="w-10 h-10" src="/images/icons/trade.png" alt="" />
+            </button>
+            <p
+              class="text-white font-medium text-lg capitalize w-full text-center"
+            >
+              chart
+            </p>
+          </div>
+          <div
+            class="w-36 h-14 flex justify-center flex-col items-center gap-2"
+          >
+            <button class="bg-gray-500 rounded-md shadow-sm">
+              <img
+                class="w-10 h-10"
+                src="/images/icons/transaction-history.png"
+                alt=""
+              />
+            </button>
+            <p
+              class="text-white text-center w-full font-medium text-lg capitalize"
+            >
+              deposit history
+            </p>
+          </div>
+          <div
+            class="w-36 h-14 flex justify-center flex-col items-center gap-2"
+          >
+            <button class="bg-gray-500 rounded-md shadow-sm">
+              <img class="w-10 h-10" src="/images/icons/more.png" alt="" />
+            </button>
+            <p
+              class="text-white w-full text-center font-medium text-lg capitalize"
+            >
+              more
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- market info -->
+    <section class="w-full h-screen">
+      <p class="text-white text-center font-medium capitalize text-2xl mb-8 ">
+        market info
+      </p>
+      <!-- TradingView Widget BEGIN -->
+      <div
+        class="tradingview-widget-container w-full h-[70vh]"
+        style="height: 100%; width: 100%"
+      >
+        <div
+          class="tradingview-widget-container__widget"
+          style="height: calc(100% - 32px); width: 100%"
+        ></div>
+        <div class="tradingview-widget-copyright">
+          <a
+            href="https://www.tradingview.com/"
+            rel="noopener nofollow"
+            target="_blank"
+            ><span class="blue-text">Track all markets on TradingView</span></a
+          >
+        </div>
+        <script
+          type="text/javascript"
+          src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"
+          async
+        >
+            {
+            "autosize": true,
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "D",
+            "timezone": "Etc/UTC",
+            "theme": "dark",
+            "style": "1",
+            "locale": "en",
+            "withdateranges": true,
+            "allow_symbol_change": true,
+            "details": true,
+            "calendar": false,
+            "support_host": "https://www.tradingview.com"
+          }
+        </script>
+      </div>
+      <!-- TradingView Widget END -->
+    </section>
   </body>
 </html>
